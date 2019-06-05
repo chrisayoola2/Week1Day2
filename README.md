@@ -29,8 +29,8 @@
 
 2. Create function to check if the string is a palindrome without using string.reverse() method
    public boolean checkPalindrome(String word){};
-![Problem 2](https://user-images.githubusercontent.com/51377425/58972850-8353f700-878c-11e9-9cc1-516797d5cff4.png)
-public static boolean checkPalindrome(String name) {
+   
+   public static boolean checkPalindrome(String name) {
         boolean b = false;
 
         if (((name.length()) % 2) == 0) {   // conditional to see if the word is odd or even
@@ -77,6 +77,8 @@ public static boolean checkPalindrome(String name) {
         }
         return b;
     }
+
+![Problem 2](https://user-images.githubusercontent.com/51377425/58972850-8353f700-878c-11e9-9cc1-516797d5cff4.png)
 
 3. Create a function that will print:
      "fizz" is the number is divisible by 3

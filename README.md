@@ -84,8 +84,8 @@
      "fizz" is the number is divisible by 3
      "buzz" is the number is divisible by 5
      "fizzbuzz" is the number is divisible by both
- ![Problem3](https://user-images.githubusercontent.com/51377425/58972860-8818ab00-878c-11e9-9345-c67900e8c6a0.png)
- ublic static void function(int number) { //
+     
+     public static void function(int number) { //
         String print;
 
         if (number % 15 == 0) {
@@ -102,13 +102,15 @@
         }
         else System.out.println("not divisible");
     }
+ ![Problem3](https://user-images.githubusercontent.com/51377425/58972860-8818ab00-878c-11e9-9345-c67900e8c6a0.png)
+ 
  
  
 
 4.  Create a function to check if the two strings are Anagrams:    Eg COAT and TACO would be anagrams
    public boolean checkAnagrams(String word1, String word2){};
-![Problem 4](https://user-images.githubusercontent.com/51377425/58972455-9d410a00-878b-11e9-8cc8-9dc3e41d6ef0.png)
-public static boolean checkAnagram(String word1, String word2) {
+   
+   public static boolean checkAnagram(String word1, String word2) {
         boolean b = false;
         char[] arrayWord1 = word1.toCharArray(); // change string1 into char array
         char[] arrayWord2 = word2.toCharArray(); // change string2 into char array
@@ -128,6 +130,8 @@ public static boolean checkAnagram(String word1, String word2) {
 
 
     }
+![Problem 4](https://user-images.githubusercontent.com/51377425/58972455-9d410a00-878b-11e9-8cc8-9dc3e41d6ef0.png)
+
 
 5. Print a multiplication table from 1 to 10 using  multidimensional array
    Output
